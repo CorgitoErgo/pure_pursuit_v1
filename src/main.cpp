@@ -4,6 +4,8 @@ void disabled() {}
 void competition_initialize() {}
 
 void serialRead(void* params){
+    int sussy;
+    double killed;
     vexGenericSerialEnable(SERIALPORT - 1, 0);
     vexGenericSerialBaudrate(SERIALPORT - 1, 115200);
     pros::delay(10);
