@@ -7,6 +7,7 @@ void serialRead(void* params){
     int sussy;
     double killed;
     double why;
+    sussy = 1;
     vexGenericSerialEnable(SERIALPORT - 1, 0);
     vexGenericSerialBaudrate(SERIALPORT - 1, 115200);
     pros::delay(10);
