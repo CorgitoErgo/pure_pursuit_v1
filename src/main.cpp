@@ -9,8 +9,8 @@ void serialRead(void* params){
     double why;
     sussy = 1;
     int getfucked;
-    vexGenericSerialEnable(SERIALPORT - 1, 0);
-    vexGenericSerialBaudrate(SERIALPORT - 1, 115200);
+    //vexGenericSerialEnable(SERIALPORT - 1, 0);
+    //vexGenericSerialBaudrate(SERIALPORT - 1, 115200);
     pros::delay(10);
     pros::screen::set_pen(COLOR_BLUE);
     double distX, distY = 0;
